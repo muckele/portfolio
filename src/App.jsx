@@ -1,5 +1,8 @@
-import { useState } from 'react'
+//npm
 import { Routes, Route } from 'react-router-dom'
+import { useState } from 'react'
+//components
+import NavBar from './components/NavBar.jsx'
 //pages
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -8,9 +11,9 @@ import ResumePage from './pages/ResumePage'
 import ProjectsPage from './pages/ProjectsPage'
 
 function App() {
-
   return (
     <>
+      <NavBar />
       <Routes>
         <Route path='home' element={<HomePage />} />
         <Route path='about' element={<AboutPage />} />
