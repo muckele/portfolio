@@ -1,8 +1,8 @@
 //npm
 import { Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
 //components
 import NavBar from './components/NavBar.jsx'
+import Footer from './components/Footer.jsx'
 //pages
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -21,6 +21,7 @@ function App() {
         <Route path='resume' element={<ResumePage />} />
         <Route path='Projects' element={<ProjectsPage />} />
       </Routes>
+      <Footer />
     </>
   )
 }
