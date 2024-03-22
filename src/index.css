@@ -111,7 +111,7 @@ a.active {
   align-items: center;
 }
 
-span.navbar-name{
+span.navbar-name {
   display: flexbox;
   align-items: center;
   font-size: 25px;
@@ -144,6 +144,10 @@ h1 {
   margin-top: 65px;
 }
 
+h2 {
+  margin-top: 100px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -169,6 +173,16 @@ h1 {
 .footer a:hover {
   color: #ccc;
   /* Change link color on hover */
+}
+
+div#root{
+  text-align: center;
+}
+
+img.headshot {
+  width: 25em;
+  height: auto;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 800px) {
