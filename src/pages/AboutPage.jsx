@@ -23,6 +23,7 @@ function AboutPage() {
                     <li>Schitt's Creek</li>
                 </ul>
             </div>
+{/* Add Hobbies */}
         </>
 
     )
