@@ -1,26 +1,24 @@
 import React from "react"
-import projectsData from "../data/projectsData"
 
 const ProjectCard = ({ project }) => {
-  const { title, image, alt} = project
-
   return (
     <div className="project-card">
-      <img src={image} alt={alt} />
-      <h2>{title}</h2>
-
+      <img src={project.image} alt={project.title} />
+      <div className="project-details">
+        <h2>{project.title}</h2>
+        <p>{project.description}</p>
+        <div className="project-links">
+          <a href={project.repositoryLink}>Repository</a>
+          <a href={project.deploymentLink}>Deployment</a>
+        </div>
+        <div className="technologies-used">
+          {project.technologiesUsed.map((tech, index) => (
+            <span key={index}>{tech}</span>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }
 
-const ProjectList = () => {
-  return (
-    <div className="project-list">
-      {projectsData.map((project, index) => (
-        <ProjectCard key={index} project={project} />
-      ))}
-    </div>
-  );
-};
-
-export default ProjectList;
+export default ProjectCard
