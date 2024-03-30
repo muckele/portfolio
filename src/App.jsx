@@ -9,7 +9,6 @@ import Footer from './components/Footer.jsx'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactForm from './pages/ContactForm'
-import ResumePage from './pages/ResumePage'
 import ProjectsPage from './pages/ProjectsPage'
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='about' element={<AboutPage />} />
         <Route path='Projects' element={<ProjectsPage />} />
-        <Route path='resume' element={<ResumePage />} />
         <Route path='contact' element={<ContactForm />} />
       </Routes>
       <Footer />

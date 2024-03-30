@@ -1,9 +1,15 @@
+import resume from '../assets/Mathew Uckele Resume 2024.pdf'
+
 function AboutPage() {
     return (
         <>
             <h1>About</h1>
             <div className="mission-statement">
                 <p>As a versatile and results-driven Full Stack Computer Engineer, I combine a deep understanding of front-end and back-end technologies to deliver innovative and scalable solutions. With a proven track record of successfully navigating complex projects, I excel in designing and implementing robust applications that optimize user experiences and meet business objectives. My proficiency spans a wide range of programming languages, frameworks, and databases, allowing me to adapt seamlessly to evolving technological landscapes. </p>
+            </div>
+            <div>
+                <h2>Resume</h2>
+                <p>Download my <a href= {resume} >resume</a></p> 
             </div>
             <div className="fav-things">
                 <h2>Favorite Books</h2>
