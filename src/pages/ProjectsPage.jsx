@@ -1,6 +1,11 @@
+// import ProjectsCardList from "../components/ProjectCardList"
+
 function ProjectsPage() {
     return (
-        <h1>Projects</h1>
+        <div>
+            <h1>Projects</h1>
+            {/* <ProjectsCardList /> */}
+        </div>
     )
 }
 
