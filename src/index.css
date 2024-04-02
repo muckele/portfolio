@@ -231,6 +231,69 @@ a.resume-link {
   margin-bottom: 5px;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-details {
+  margin-top: 20px;
+}
+
+.project-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-links {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.project-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.technologies-used {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technologies-used span {
+  margin: 5px;
+}
+
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 15.75vw;

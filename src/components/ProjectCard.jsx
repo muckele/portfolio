@@ -1,3 +1,5 @@
+import ReactMarkdown from 'react-markdown';
+
 const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
@@ -11,12 +13,12 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className="technologies-used">
           {project.technologiesUsed.map((tech, index) => (
-            <span key={index}>{tech}</span>
+            <ReactMarkdown key={index} children={tech} />
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ProjectCard
