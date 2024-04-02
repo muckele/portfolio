@@ -2,6 +2,7 @@ import ConnectFourImage from '../assets/Connect Four Image .png'
 import TastyTroveImage from '../assets/Tasty Trove.png'
 import RideAndFlyImage from '../assets/ride&fly_app.png';
 import HouseHunterImage from '../assets/House Hunter.png'; 
+import DogCollectorImage from '../assets/Dog Collector Logo.webp'; 
 
 const projectsData = [
   {
@@ -34,9 +35,6 @@ const projectsData = [
       '![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)', 
       '![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)',
       '![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)',
-      'Google OAuth',
-      'Passport.js',
-      'Mongoose'
     ]
   },
   {
@@ -80,6 +78,7 @@ const projectsData = [
     {
     title: "Dog Collector",
     description: "The Dog Collector app is your ultimate companion for managing and enjoying the company of your furry friends. With a user-friendly interface and intuitive features, this app allows you to create and customize your own virtual dog collection, making it perfect for dog lovers of all ages.  Full CRUD of dogs, toys, and feeding schedules to make sure all of your virtual pups are well taken care of.",
+    image: DogCollectorImage,
     repositoryLink: "https://github.com/muckele/dog-collector",
     deploymentLink: "https://dog-collector.fly.dev/",
     technologiesUsed: [
