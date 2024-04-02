@@ -4,8 +4,6 @@ import { Routes, Route } from 'react-router-dom'
 //components
 import NavBar from './components/NavBar.jsx'
 import Footer from './components/Footer.jsx'
-// import ProjectList from './components/ProjectCard.jsx'
-//pages
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactForm from './pages/ContactForm'

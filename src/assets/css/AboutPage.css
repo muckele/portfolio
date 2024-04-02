@@ -1,0 +1,40 @@
+.about-container {
+  max-width: 800px;
+  /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+  /* Align text to the left */
+}
+
+.mission-statement {
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  margin-bottom: 40px;
+}
+
+.favorite-section {
+  margin-bottom: 40px;
+}
+
+.favorite-section h2 {
+  margin-bottom: 10px;
+}
+
+.favorite-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-list li {
+  margin-bottom: 5px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 800px) {
+  .about-container {
+    padding: 0 10px;
+  }
+}

@@ -1,10 +1,10 @@
-// import ProjectsCardList from "../components/ProjectCardList"
+import ProjectsCardList from "../components/ProjectCardList"
 
 function ProjectsPage() {
     return (
         <div>
             <h1>Projects</h1>
-            {/* <ProjectsCardList /> */}
+            <ProjectsCardList />
         </div>
     )
 }

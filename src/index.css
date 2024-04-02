@@ -185,8 +185,57 @@ img.headshot {
   border-radius: 50%;
 }
 
+a.resume-link {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: px;
+}
+  
+.resume-link:hover {
+  text-decoration: underline;
+  
+}
+
+.about-container {
+  max-width: 800px;
+  /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+  /* Align text to the left */
+}
+
+.mission-statement {
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  margin-bottom: 40px;
+}
+
+.favorite-section {
+  margin-bottom: 40px;
+}
+
+.favorite-section h2 {
+  margin-bottom: 10px;
+}
+
+.favorite-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-list li {
+  margin-bottom: 5px;
+}
+
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 15.75vw;
+  };
+  .about-container {
+    padding: 0 10px;
   }
 }

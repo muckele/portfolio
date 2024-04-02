@@ -76,7 +76,7 @@ const projectsData = [
     title: "Dog Collector",
     description: "The Dog Collector app is your ultimate companion for managing and enjoying the company of your furry friends. With a user-friendly interface and intuitive features, this app allows you to create and customize your own virtual dog collection, making it perfect for dog lovers of all ages.  Full CRUD of dogs, toys, and feeding schedules to make sure all of your virtual pups are well taken care of.",
     repositoryLink: "https://github.com/muckele/dog-collector",
-    deploymentLink: "https://dog-collector.fly.dev/"
+    deploymentLink: "https://dog-collector.fly.dev/",
     technologiesUsed: [
             '![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)',
       '![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)',
