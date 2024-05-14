@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* styles.css */
 
 body,
@@ -7,6 +9,7 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App {
@@ -31,6 +34,7 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s;
+  margin-bottom: 100px;
 }
 
 .project-card:hover {
@@ -50,11 +54,13 @@ html {
 .project-details h2 {
   font-size: 1.5em;
   margin-bottom: 8px;
+  font-weight: 700;
 }
 
 .project-details p {
   font-size: 1em;
   margin-bottom: 16px;
+  font-weight: 400;
 }
 
 .project-links {
@@ -69,7 +75,7 @@ html {
 .project-links a {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 0.9em;
+  font-size: 1.2em;
   color: #fff;
   background-color: #0070f3;
   border-radius: 4px;
@@ -84,6 +90,9 @@ html {
 .technologies-used {
   font-size: 0.9em;
   color: #555;
+  margin-top: 24px;
+  
+  /* Add margin to separate from the links */
 }
 
 /* Add padding to the footer */
