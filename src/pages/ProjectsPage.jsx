@@ -1,4 +1,6 @@
 import ProjectsCardList from "../components/ProjectCardList"
+import '../assets/css/ProjectsPage.css'
+
 
 function ProjectsPage() {
     return (

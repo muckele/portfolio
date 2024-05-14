@@ -1,0 +1,89 @@
+/* styles.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  margin: 8px;
+  /* Adjust margin as needed */
+  flex: 1 1 calc(100% - 32px);
+  /* Full width with margin consideration */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-details {
+  padding: 16px;
+}
+
+.project-details h2 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.project-details p {
+  font-size: 1em;
+  margin-bottom: 16px;
+}
+
+.project-links {
+  margin-bottom: 16px;
+}
+
+.project-links a {
+  margin-right: 8px;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.technologies-used {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Add padding to the footer */
+footer {
+  padding: 16px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  width: 100%;
+}
