@@ -19,7 +19,6 @@ html {
 .projects-card-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* Responsive columns */
   gap: 16px;
   width: 100%;
   padding: 16px;
@@ -59,17 +58,27 @@ html {
 }
 
 .project-links {
+  display: flex;
+  justify-content: center;
+  /* Center the buttons */
+  gap: 16px;
+  /* Space between buttons */
   margin-bottom: 16px;
 }
 
 .project-links a {
-  margin-right: 8px;
-  color: #0070f3;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #0070f3;
+  border-radius: 4px;
   text-decoration: none;
+  transition: background-color 0.2s;
 }
 
 .project-links a:hover {
-  text-decoration: underline;
+  background-color: #005bb5;
 }
 
 .technologies-used {
