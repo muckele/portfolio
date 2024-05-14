@@ -13,12 +13,14 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .projects-card-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* Responsive columns */
+  gap: 16px;
   width: 100%;
   padding: 16px;
 }
@@ -30,10 +32,6 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s;
-  margin: 8px;
-  /* Adjust margin as needed */
-  flex: 1 1 calc(100% - 32px);
-  /* Full width with margin consideration */
 }
 
 .project-card:hover {
