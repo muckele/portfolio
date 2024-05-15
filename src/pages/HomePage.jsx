@@ -1,5 +1,6 @@
 import React from "react";
 import headshotImage from "../assets/portfolio-headshot.jpeg";
+import '../assets/css/HomePage.css';
 
 function HomePage() {
     return (
